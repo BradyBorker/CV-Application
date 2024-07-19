@@ -1,0 +1,39 @@
+div.forms-container {
+    display: flex;
+    flex-direction: column;
+
+    padding: 25px 10px 10px 25px;
+}
+
+div.editing-selector-container {
+    display: flex;
+
+    margin-bottom: 10px;
+}
+
+form.new-form,
+form.editing-form {
+    border: 1px solid black;
+    width: max-content;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+form.editing-form {
+    width: 175px;
+}
+
+
+
+div.form-input {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    resize: vertical;
+    padding: 5px;
+}

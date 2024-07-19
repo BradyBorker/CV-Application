@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div#root {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+}
